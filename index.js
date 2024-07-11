@@ -31,3 +31,12 @@ for(let i=0 ; i<number.length ; i++)
 }
 
 console.log (`Sum of a odd numbers are ${sum}`)
+
+//program to say hello to all elements
+
+const students = [ "Mansi" , "Sakshi" , "Pallavi" , "Kavita" , "Vrushali"]
+
+for(const stud of students )
+{
+       console.log(`Heyy hello ${stud}`)
+}
